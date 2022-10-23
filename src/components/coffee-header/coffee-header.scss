@@ -1,0 +1,9 @@
+.header {
+   min-height: 260px;
+   padding-top: 30px;
+   background: url('../../img/mainBgSmall.jpg') no-repeat 0 / cover;
+   color: #fff;
+   &__title {
+      margin-top: 60px;
+   }
+}

@@ -1,0 +1,22 @@
+.coffee-divider {
+   display: block;
+   position: relative;
+   margin: 20px auto 20px auto;
+   width: 30px;
+   &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 60px;
+      border-bottom: 1px solid black;
+      transform: translate(-80px, 15px);
+   }
+   &::after {
+   content: '';
+   display: block;
+   position: absolute;
+   width: 60px;
+   border-bottom: 1px solid black;
+   transform: translate(45px, -20px);
+   }
+}
